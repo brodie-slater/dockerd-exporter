@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM alpine:latest
+FROM --platform="linux/amd64" alpine:latest
 
 RUN apk add --no-cache socat 
 
