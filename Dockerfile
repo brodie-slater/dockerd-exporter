@@ -1,4 +1,4 @@
-FROM arm32v7/alpine:latest
+FROM --platform=$BUILDPLATFORM alpine:latest
 
 RUN apk add --no-cache socat 
 
